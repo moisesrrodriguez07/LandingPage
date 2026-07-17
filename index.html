@@ -1402,13 +1402,15 @@
         const registroForm = document.getElementById('registroForm');
         const formStatus = document.getElementById('formStatus');
         const submitButton = registroForm.querySelector('.btn-submit');
-        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxIR-ROKUCioJT-NafuGKtKXsRjTSMfW2-eOwtlzpiNgR9Ex0kEcVqrvl_dGD4JZpPCK/exec';
+        const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxlR-ROKUCioJT-NafuGKtKXsRjTSMfW2-eOwtIzpiNgR9Ex0kEcVqrvLdGD4JZpPCK/exec';
         let envioEnProceso = false;
 
         registroForm.addEventListener('submit', async (event) => {
             event.preventDefault();
 
-            if (envioEnProceso || !registroForm.checkValidity()) {
+            if (envioEnProceso) return;
+
+            if (!registroForm.checkValidity()) {
                 registroForm.reportValidity();
                 return;
             }
