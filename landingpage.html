@@ -7,6 +7,15 @@
     <meta name="description" content="Seminario presencial sobre el poder de la estimulación musical en el neurodesarrollo infantil.">
     
     <!-- Google Fonts -->
+    <link rel="preconne<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovación y Neurociencia en el Aula de Música</title>
+    <meta name="description" content="Seminario presencial sobre el poder de la estimulación musical en el neurodesarrollo infantil.">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -408,6 +417,33 @@
             border-radius: 12px;
         }
 
+        /* Estilos para las listas del temario */
+        .temario-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 1rem;
+        }
+
+        .temario-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+            color: var(--text-light);
+            line-height: 1.4;
+        }
+
+        .temario-list li::before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: var(--terracotta);
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 0.9rem;
+        }
+
         /* 6. BENEFICIOS */
         .beneficios {
             padding: var(--section-padding);
@@ -478,15 +514,16 @@
             flex: 2;
         }
 
+        /* --- ACTUALIZACIONES APLICADAS AQUÍ --- */
         .expositor-info h3 {
-            color: var(--beige);
+            color: var(--white);
             font-size: 2rem;
             margin-bottom: 0.2rem;
         }
 
         .expositor-subtitle {
             font-size: 1.1rem;
-            color: var(--terracotta);
+            color: var(--white);
             margin-bottom: 1.5rem;
             font-weight: 700;
         }
@@ -494,6 +531,7 @@
         .expositor-highlights {
             list-style: none;
             margin-bottom: 2rem;
+            padding-left: 0;
         }
 
         .expositor-highlights li {
@@ -502,8 +540,22 @@
             align-items: flex-start;
             gap: 1rem;
             font-size: 1.1rem;
-            color: rgba(255,255,255,0.9);
+            color: var(--white);
+            position: relative;
+            padding-left: 1.5rem;
         }
+
+        .expositor-highlights li::before {
+            content: "\f111";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            color: var(--white);
+            position: absolute;
+            left: 0;
+            top: 10px;
+            font-size: 0.45rem;
+        }
+        /* --- FIN DE LAS ACTUALIZACIONES --- */
 
         .accordion-bio {
             background: rgba(255,255,255,0.1);
@@ -539,6 +591,10 @@
         .accordion-content.active {
             padding: 1rem 1.5rem 1.5rem;
             max-height: 1000px;
+        }
+        
+        .accordion-content p {
+            margin-bottom: 1rem;
         }
 
         /* 8. INFO EVENTO */
@@ -1024,26 +1080,47 @@
             </div>
             
             <div class="grid-temario">
-                <!-- Estructura preparada para contenido -->
+                <!-- Bloque 1 -->
+                <div class="card-temario">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <div>
+                        <h3>Bloque 1: Repensando la educación musical</h3>
+                        <p>Un recorrido por los principales cambios de paradigma en la enseñanza musical:</p>
+                        <ul class="temario-list">
+                            <li>Del método a las metodologías.</li>
+                            <li>De la técnica al aprendizaje significativo.</li>
+                            <li>Del instrumento al desarrollo integral del niño.</li>
+                            <li>De la lectura musical a la comprensión mediante historias, juegos y experiencias.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bloque 2 -->
                 <div class="card-temario">
                     <i class="fa-solid fa-brain"></i>
                     <div>
-                        <h3>Módulo 1: Cerebro y Música</h3>
-                        <p>Fundamentos del procesamiento musical y su impacto en la neuroplasticidad temprana.</p>
+                        <h3>Bloque 2: Neurociencia aplicada al aula de música</h3>
+                        <ul class="temario-list">
+                            <li>Música y plasticidad cerebral.</li>
+                            <li>Desarrollo de funciones ejecutivas.</li>
+                            <li>Atención, memoria y autorregulación.</li>
+                            <li>Cómo la música favorece el aprendizaje infantil.</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="card-temario">
-                    <i class="fa-solid fa-ear-listen"></i>
-                    <div>
-                        <h3>Módulo 2: Estimulación Sensorial</h3>
-                        <p>Técnicas de integración auditiva y motora para el desarrollo de la percepción.</p>
-                    </div>
-                </div>
+
+                <!-- Bloque 3 -->
                 <div class="card-temario">
                     <i class="fa-solid fa-guitar"></i>
                     <div>
-                        <h3>Módulo 3: Práctica Pedagógica</h3>
-                        <p>Diseño de actividades musicales enfocadas en potenciar funciones ejecutivas.</p>
+                        <h3>Bloque 3: Estrategias prácticas para el aula</h3>
+                        <ul class="temario-list">
+                            <li>Uso pedagógico del metalófono.</li>
+                            <li>Juegos musicales y actividades grupales.</li>
+                            <li>Narrativas musicales.</li>
+                            <li>Ejemplos de secuencias didácticas.</li>
+                            <li>Cómo estructurar una clase dinámica y motivadora.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -1094,18 +1171,17 @@
             
             <div class="expositor-container">
                 <div class="expositor-img">
-                    <!-- Placeholder fotográfico para el expositor -->
-                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Don Eliberto Arjuna Franco Visuete">
+                    <img src="Don Franco.png.jpg" alt="Don Eliberto Arjuna Franco Visuete">
                 </div>
                 <div class="expositor-info">
                     <h3>Don Eliberto Arjuna Franco Visuete</h3>
                     <p class="expositor-subtitle">(Don Franco Visuete) <br>Musicólogo • Humanista • Docente • Investigador • Autor</p>
                     
                     <ul class="expositor-highlights">
-                        <li><span>🏅</span> Autor de libros especializados en estimulación musical y neurociencia.</li>
-                        <li><span>🎓</span> Magíster en Musicología por la Universidad de Chile.</li>
-                        <li><span>📚</span> Investigador y docente con amplia trayectoria académica.</li>
-                        <li><span>🎼</span> Especialista en neurociencia aplicada a la educación musical.</li>
+                        <li>Musicólogo, humanista y docente panameño con trayectoria de excelencia internacional.</li>
+                        <li>Magíster en Artes con mención en Musicología por la Universidad de Chile.</li>
+                        <li>Investigador en neurociencia aplicada, enfocado en plasticidad cerebral y funciones ejecutivas.</li>
+                        <li>Fundador de Stimusickids y productor de cuatro obras discográficas educativas.</li>
                     </ul>
 
                     <div class="accordion-bio">
@@ -1113,7 +1189,8 @@
                             Ver trayectoria completa <i class="fa-solid fa-chevron-down"></i>
                         </button>
                         <div id="bio-content" class="accordion-content">
-                            <p>[Aquí se insertará la biografía completa de Don Franco Visuete detallando sus estudios, publicaciones, reconocimientos y experiencia internacional en el campo de la estimulación musical temprana y la neurociencia aplicada].</p>
+                            <p><strong>Excelencia Académica y Rescate Patrimonial:</strong> Su tesis de maestría está indexada en la Biblioteca Digital del Patrimonio Iberoamericano y en la Biblioteca Nacional de Panamá. Posee las licenciaturas en Humanidades (Especialidad en Francés) y en Bellas Artes con Especialización en Música (Signa Cum Laude) por la Universidad de Panamá, además de ser Especialista en Docencia Superior (ICASE).</p>
+                            <p><strong>Visión Investigativa y Legado Educativo:</strong> Es autor de una investigación fundamental sobre la figura del maestro Alberto Galimany y ha sistematizado sus conocimientos en la obra "Guía Técnica y Orientación Pedagógica". Actualmente, ejerce como docente en el Ministerio de Educación (MEDUCA) y ha destacado como profesor en la Academia Yamaha.</p>
                         </div>
                     </div>
                     
@@ -1172,7 +1249,7 @@
                 <div class="terms-box">
                     <ul>
                         <li><i class="fa-solid fa-circle-info"></i> Los B/.30.00 corresponden al abono para reservar el cupo.</li>
-                        <li><i class="fa-solid fa-circle-info"></i> El saldo restante deberá cancelarse antes del inicio del seminario.</li>
+                        <li><i class="fa-solid fa-circle-info"></i> El saldo restante deberá cancelarse 7 días antes del inicio del seminario.</li>
                         <li><i class="fa-solid fa-circle-info"></i> El abono no es reembolsable.</li>
                         <li><i class="fa-solid fa-circle-info"></i> La inscripción sí es transferible a otra persona en caso de no poder asistir.</li>
                     </ul>
@@ -1218,7 +1295,7 @@
                 <div class="faq-item">
                     <button class="faq-question">¿Cuándo debo cancelar el saldo restante? <i class="fa-solid fa-chevron-down"></i></button>
                     <div class="faq-answer">
-                        <p>El saldo restante de B/.120.00 deberá ser cancelado a más tardar un día antes del evento para garantizar tu acceso fluido y entrega del kit.</p>
+                        <p>El saldo restante de B/.120.00 deberá ser cancelado a más tardar 7 días antes del evento para garantizar tu acceso fluido y la entrega del kit.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -1284,13 +1361,11 @@
             
             <div class="footer-social">
                 <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
             
             <div class="footer-contact">
                 <p><i class="fa-regular fa-envelope"></i> estimulacionmusical.temily@gmail.com</p>
-                <p><i class="fa-brands fa-instagram"></i> @primeros_pasitos_musicales</p>
+                <p><i class="fa-brands fa-instagram"></i> @primerospasitosmusicales</p>
             </div>
             
             <div class="footer-bottom">
