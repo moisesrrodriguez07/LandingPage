@@ -505,7 +505,6 @@
             flex: 2;
         }
 
-        /* --- ACTUALIZACIONES APLICADAS AQUÍ --- */
         .expositor-info h3 {
             color: var(--white);
             font-size: 2rem;
@@ -546,7 +545,6 @@
             top: 10px;
             font-size: 0.45rem;
         }
-        /* --- FIN DE LAS ACTUALIZACIONES --- */
 
         .accordion-bio {
             background: rgba(255,255,255,0.1);
@@ -693,19 +691,12 @@
         }
 
         .terms-box ul {
-            list-style-type: none;
-            padding-left: 0;
+            list-style-type: disc;
+            padding-left: 1.5rem;
         }
 
         .terms-box li {
             margin-bottom: 0.5rem;
-            display: flex;
-            gap: 0.5rem;
-        }
-        
-        .terms-box li i {
-            color: var(--terracotta);
-            margin-top: 4px;
         }
 
         /* 10. FAQ */
@@ -849,23 +840,6 @@
             color: var(--sage-green-light);
         }
 
-        .footer-social {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-social a {
-            color: var(--white);
-            font-size: 1.5rem;
-            transition: color 0.3s;
-        }
-
-        .footer-social a:hover {
-            color: var(--terracotta);
-        }
-
         .footer-contact {
             margin-bottom: 2rem;
             font-size: 0.95rem;
@@ -939,9 +913,9 @@
                     <span><i class="fa-solid fa-check-circle"></i> Coffee Break</span>
                 </div>
             </div>
-                        <div class="hero-image reveal">
-                <!-- Placeholder for high quality professional photo -->
-                <img src="Portada 2.jpeg" alt="Educación Musical Infantil">
+            <div class="hero-image reveal">
+                <!-- Se mantiene la imagen de portada original o de unsplash -->
+                <img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Educación Musical Infantil">
             </div>
         </div>
     </section>
@@ -994,60 +968,70 @@
             </div>
             <div class="grid-6">
                 <div class="card-sm">
+                    <i class="fa-solid fa-music"></i>
+                    <h4>Docentes de música</h4>
+                </div>
+                <div class="card-sm">
                     <i class="fa-solid fa-chalkboard-user"></i>
-                    <h4>Docentes de Música</h4>
+                    <h4>Educadoras</h4>
                 </div>
                 <div class="card-sm">
-                    <i class="fa-solid fa-user-tie"></i>
-                    <h4>Educadores</h4>
+                    <i class="fa-solid fa-child-reaching"></i>
+                    <h4>Psicólogos infantiles</h4>
                 </div>
                 <div class="card-sm">
-                    <i class="fa-solid fa-stethoscope"></i>
+                    <i class="fa-solid fa-hand-holding-heart"></i>
                     <h4>Terapeutas</h4>
                 </div>
                 <div class="card-sm">
-                    <i class="fa-solid fa-brain"></i>
-                    <h4>Psicopedagogos</h4>
+                    <i class="fa-solid fa-shapes"></i>
+                    <h4>Profesionales de estimulación</h4>
                 </div>
                 <div class="card-sm">
-                    <i class="fa-solid fa-user-nurse"></i>
-                    <h4>Profesionales de Salud</h4>
-                </div>
-                <div class="card-sm">
-                    <i class="fa-solid fa-people-group"></i>
-                    <h4>Padres Interesados</h4>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h4>Estudiantes afines</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 4. LOS LOGROS -->
+    <!-- 4. QUE LOGRARAS -->
     <section class="logros reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Los logros que alcanzarás</h2>
+                <h2>Resultados que podrás aplicar inmediatamente</h2>
+                <p>Al finalizar el seminario serás capaz de:</p>
             </div>
+            
             <div class="logros-list">
                 <div class="logros-item">
-                    <i class="fa-solid fa-star"></i>
-                    <span>Comprenderás los mecanismos neurobiológicos de la estimulación musical</span>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Comprender cómo aprende el cerebro mediante la música.</span>
                 </div>
                 <div class="logros-item">
-                    <i class="fa-solid fa-star"></i>
-                    <span>Implementarás actividades música-terapéuticas basadas en evidencia científica</span>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Aplicar estrategias fundamentadas en neurociencia.</span>
                 </div>
                 <div class="logros-item">
-                    <i class="fa-solid fa-star"></i>
-                    <span>Potenciarás el neurodesarrollo integral en niños y niñas</span>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Diseñar experiencias musicales con propósito educativo.</span>
                 </div>
                 <div class="logros-item">
-                    <i class="fa-solid fa-star"></i>
-                    <span>Transformarás tu práctica educativa con metodologías innovadoras</span>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Favorecer el desarrollo cognitivo infantil.</span>
                 </div>
                 <div class="logros-item">
-                    <i class="fa-solid fa-star"></i>
-                    <span>Obtendrás certificado profesional reconocido</span>
+                    <i class="fa-solid fa-check"></i>
+                    <span>Fortalecer atención, memoria y funciones ejecutivas.</span>
                 </div>
+                <div class="logros-item">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Utilizar recursos prácticos desde el primer día.</span>
+                </div>
+            </div>
+            
+            <div class="center-btn">
+                <a href="#inscripcion" class="btn btn-primary">Reservar mi cupo</a>
             </div>
         </div>
     </section>
@@ -1056,42 +1040,48 @@
     <section class="temario reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Temario Detallado</h2>
+                <h2>¿Qué aprenderás?</h2>
+                <p>Un recorrido integral estructurado para maximizar tu aprendizaje.</p>
             </div>
+            
             <div class="grid-temario">
-                <div class="card-temario">
-                    <i class="fa-solid fa-brain"></i>
-                    <div>
-                        <h3>Módulo 1: Fundamentos de Neurociencia</h3>
-                        <ul class="temario-list">
-                            <li>Bases neuroanatómicas del aprendizaje</li>
-                            <li>Plasticidad neuronal en edades tempranas</li>
-                            <li>Circuitos cerebrales activados por la música</li>
-                            <li>Neuroplasticidad y experiencia auditiva</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card-temario">
-                    <i class="fa-solid fa-music"></i>
-                    <div>
-                        <h3>Módulo 2: Música y Desarrollo Cognitivo</h3>
-                        <ul class="temario-list">
-                            <li>Impacto en memoria y atención</li>
-                            <li>Desarrollo del lenguaje musical</li>
-                            <li>Integración sensorial a través del sonido</li>
-                            <li>Música como herramienta pedagógica</li>
-                        </ul>
-                    </div>
-                </div>
                 <div class="card-temario">
                     <i class="fa-solid fa-lightbulb"></i>
                     <div>
-                        <h3>Módulo 3: Estrategias Prácticas</h3>
+                        <h3>Bloque 1: Repensando la educación musical</h3>
+                        <p>Un recorrido por los principales cambios de paradigma en la enseñanza musical:</p>
                         <ul class="temario-list">
-                            <li>Dinámicas musicales para el aula</li>
-                            <li>Actividades de estimulación rítmica</li>
-                            <li>Juegos educativos con música</li>
-                            <li>Adaptación según edades y necesidades</li>
+                            <li>Del método a las metodologías.</li>
+                            <li>De la técnica al aprendizaje significativo.</li>
+                            <li>Del instrumento al desarrollo integral del niño.</li>
+                            <li>De la lectura musical a la comprensión mediante historias, juegos y experiencias.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card-temario">
+                    <i class="fa-solid fa-brain"></i>
+                    <div>
+                        <h3>Bloque 2: Neurociencia aplicada al aula de música</h3>
+                        <ul class="temario-list">
+                            <li>Música y plasticidad cerebral.</li>
+                            <li>Desarrollo de funciones ejecutivas.</li>
+                            <li>Atención, memoria y autorregulación.</li>
+                            <li>Cómo la música favorece el aprendizaje infantil.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card-temario">
+                    <i class="fa-solid fa-guitar"></i>
+                    <div>
+                        <h3>Bloque 3: Estrategias prácticas para el aula</h3>
+                        <ul class="temario-list">
+                            <li>Uso pedagógico del metalófono.</li>
+                            <li>Juegos musicales y actividades grupales.</li>
+                            <li>Narrativas musicales.</li>
+                            <li>Ejemplos de secuencias didácticas.</li>
+                            <li>Cómo estructurar una clase dinámica y motivadora.</li>
                         </ul>
                     </div>
                 </div>
@@ -1099,122 +1089,107 @@
         </div>
     </section>
 
-    <!-- 6. BENEFICIOS -->
+    <!-- 6. BENEFICIOS INCLUIDOS -->
     <section class="beneficios reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Beneficios para el Neurodesarrollo</h2>
+                <h2>Beneficios Incluidos</h2>
             </div>
             <div class="grid-beneficios">
                 <div class="beneficio-item">
-                    <div class="beneficio-icon">
-                        <i class="fa-solid fa-ear"></i>
-                    </div>
-                    <h4>Audición</h4>
-                    <p>Mejora de capacidades auditivas</p>
+                    <div class="beneficio-icon"><i class="fa-solid fa-gift"></i></div>
+                    <h4>Kit Musical</h4>
                 </div>
                 <div class="beneficio-item">
-                    <div class="beneficio-icon">
-                        <i class="fa-solid fa-person-rays"></i>
-                    </div>
-                    <h4>Atención</h4>
-                    <p>Concentración incrementada</p>
+                    <div class="beneficio-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <h4>Certificado</h4>
                 </div>
                 <div class="beneficio-item">
-                    <div class="beneficio-icon">
-                        <i class="fa-solid fa-mouth"></i>
-                    </div>
-                    <h4>Lenguaje</h4>
-                    <p>Desarrollo del habla y comunicación</p>
+                    <div class="beneficio-icon"><i class="fa-solid fa-mug-hot"></i></div>
+                    <h4>Coffee Break</h4>
                 </div>
                 <div class="beneficio-item">
-                    <div class="beneficio-icon">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-                    <h4>Emociones</h4>
-                    <p>Regulación emocional</p>
+                    <div class="beneficio-icon"><i class="fa-solid fa-users"></i></div>
+                    <h4>Networking</h4>
                 </div>
                 <div class="beneficio-item">
-                    <div class="beneficio-icon">
-                        <i class="fa-solid fa-head-side-virus"></i>
-                    </div>
-                    <h4>Memoria</h4>
-                    <p>Fortalecimiento mnésico</p>
+                    <div class="beneficio-icon"><i class="fa-solid fa-book-open"></i></div>
+                    <h4>Recursos Pedagógicos</h4>
                 </div>
                 <div class="beneficio-item">
-                    <div class="beneficio-icon">
-                        <i class="fa-solid fa-hand-fist"></i>
-                    </div>
-                    <h4>Motricidad</h4>
-                    <p>Coordinación motriz mejorada</p>
+                    <div class="beneficio-icon"><i class="fa-solid fa-gears"></i></div>
+                    <h4>Estrategias Prácticas</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 7. EXPOSITOR -->
+    <!-- 7. CONOCE AL EXPOSITOR -->
     <section class="expositor reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Conoce a tu Instructor</h2>
+                <h2>Conoce al Expositor</h2>
             </div>
+            
             <div class="expositor-container">
                 <div class="expositor-img">
-                    <img src="instructor.jpeg" alt="Instructor profesional">
+                    <!-- RUTA DE IMAGEN CORREGIDA: Renombra tu foto exactamente a instructor.jpg -->
+                    <img src="instructor.jpg" alt="Don Eliberto Arjuna Franco Visuete">
                 </div>
                 <div class="expositor-info">
-                    <h3>Dr. Especialista en Neurociencia Musical</h3>
-                    <p class="expositor-subtitle">Experto en Estimulación Auditiva y Neurodesarrollo Infantil</p>
+                    <h3>Don Eliberto Arjuna Franco Visuete</h3>
+                    <p class="expositor-subtitle">(Don Franco Visuete) <br>Musicólogo • Humanista • Docente • Investigador • Autor</p>
                     
                     <ul class="expositor-highlights">
-                        <li>Doctorado en Neurociencia Cognitiva con especialización en música</li>
-                        <li>20+ años de experiencia en educación musical y desarrollo cerebral</li>
-                        <li>Investigador reconocido en plasticidad neuronal</li>
-                        <li>Conferencista internacional en seminarios de neurodesarrollo</li>
-                        <li>Autor de múltiples publicaciones científicas</li>
+                        <li>Musicólogo, humanista y docente panameño con trayectoria de excelencia internacional.</li>
+                        <li>Magíster en Artes con mención en Musicología por la Universidad de Chile.</li>
+                        <li>Investigador en neurociencia aplicada, enfocado en plasticidad cerebral y funciones ejecutivas.</li>
+                        <li>Fundador de Stimusickids y productor de cuatro obras discográficas educativas.</li>
                     </ul>
-                    
+
                     <div class="accordion-bio">
-                        <button class="accordion-btn" onclick="toggleAccordion(event)">
-                            Ver biografía completa
-                            <i class="fa-solid fa-chevron-down"></i>
+                        <button class="accordion-btn" onclick="toggleAccordion('bio-content')">
+                            Ver trayectoria completa <i class="fa-solid fa-chevron-down"></i>
                         </button>
-                        <div class="accordion-content">
-                            <p>Con más de dos décadas de experiencia en el campo de la neurociencia musical, nuestro instructor ha dedicado su carrera a entender y compartir cómo la música impacta en el desarrollo cerebral infantil.</p>
-                            <p>Su investigación ha sido publicada en revistas científicas de prestigio y ha presentado sus hallazgos en congresos internacionales. Su enfoque práctico y basado en evidencia lo convierte en un referente en la educación musical moderna.</p>
+                        <div id="bio-content" class="accordion-content">
+                            <p><strong>Excelencia Académica y Rescate Patrimonial:</strong> Su tesis de maestría está indexada en la Biblioteca Digital del Patrimonio Iberoamericano y en la Biblioteca Nacional de Panamá. Posee las licenciaturas en Humanidades (Especialidad en Francés) y en Bellas Artes con Especialización en Música (Signa Cum Laude) por la Universidad de Panamá, además de ser Especialista en Docencia Superior (ICASE).</p>
+                            <p><strong>Visión Investigativa y Legado Educativo:</strong> Es autor de una investigación fundamental sobre la figura del maestro Alberto Galimany y ha sistematizado sus conocimientos en la obra "Guía Técnica y Orientación Pedagógica". Actualmente, ejerce como docente en el Ministerio de Educación (MEDUCA) y ha destacado como profesor en la Academia Yamaha.</p>
                         </div>
                     </div>
+                    
+                    <a href="#inscripcion" class="btn btn-outline" style="color: var(--white); border-color: var(--white);">Reservar mi cupo</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 8. INFO EVENTO -->
+    <!-- 8. INFORMACIÓN DEL EVENTO -->
     <section class="info-evento reveal">
         <div class="container">
             <div class="section-header">
                 <h2>Información del Evento</h2>
             </div>
+            
             <div class="grid-info">
                 <div class="info-card">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <h4>Fechas</h4>
-                    <p>Próximamente</p>
+                    <i class="fa-regular fa-calendar-days"></i>
+                    <h4>Fecha</h4>
+                    <p>31 de octubre de 2026</p>
                 </div>
                 <div class="info-card">
-                    <i class="fa-solid fa-clock"></i>
-                    <h4>Horario</h4>
-                    <p>9:00 AM - 5:00 PM</p>
+                    <i class="fa-regular fa-clock"></i>
+                    <h4>Hora</h4>
+                    <p>9:00 a.m. – 12:30 p.m.</p>
                 </div>
                 <div class="info-card">
                     <i class="fa-solid fa-location-dot"></i>
-                    <h4>Ubicación</h4>
-                    <p>Formato Presencial</p>
+                    <h4>Lugar</h4>
+                    <p>My Office Panamá INC<br>Calle 50, Torre Credicorp Bank</p>
                 </div>
                 <div class="info-card">
-                    <i class="fa-solid fa-users"></i>
-                    <h4>Cupos</h4>
-                    <p>Máximo 60 participantes</p>
+                    <i class="fa-solid fa-user-group"></i>
+                    <h4>Modalidad</h4>
+                    <p>Presencial</p>
                 </div>
             </div>
         </div>
@@ -1224,127 +1199,116 @@
     <section class="inversion reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Inversión en tu Desarrollo</h2>
+                <h2>Inversión</h2>
             </div>
+            
             <div class="price-box">
-                <div class="price-reserve">Tarifa Especial</div>
-                <div class="price-amount">$299</div>
-                <div class="price-total">Por persona (Early Bird)</div>
+                <span class="badge" style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background-color: var(--text-dark);">Solo 60 cupos disponibles</span>
+                
+                <p class="price-reserve">Reserva tu cupo con solo</p>
+                <div class="price-amount">B/.30.00</div>
+                <p class="price-total">Precio total del seminario: <strong>B/.150.00</strong></p>
                 
                 <div class="terms-box">
-                    <strong>¿Qué incluye?</strong>
                     <ul>
-                        <li><i class="fa-solid fa-check"></i> Seminario presencial de 8 horas</li>
-                        <li><i class="fa-solid fa-check"></i> Certificado oficial</li>
-                        <li><i class="fa-solid fa-check"></i> Kit musical exclusivo</li>
-                        <li><i class="fa-solid fa-check"></i> Material didáctico digital</li>
-                        <li><i class="fa-solid fa-check"></i> Coffee break y almuerzo</li>
-                        <li><i class="fa-solid fa-check"></i> Networking con otros educadores</li>
-                        <li><i class="fa-solid fa-check"></i> Acceso a comunidad privada</li>
+                        <li>Los B/.30.00 corresponden al abono para reservar el cupo.</li>
+                        <li>El saldo restante deberá cancelarse 7 días antes del inicio del seminario.</li>
+                        <li>El abono no es reembolsable.</li>
+                        <li>La inscripción sí es transferible a otra persona en caso de no poder asistir.</li>
                     </ul>
                 </div>
                 
-                <a href="#inscripcion" class="btn btn-primary" style="width: 100%;">Asegurar mi cupo ahora</a>
+                <a href="#inscripcion" class="btn btn-primary" style="width: 100%;">Reservar mi cupo</a>
             </div>
         </div>
     </section>
 
-    <!-- 10. FAQ -->
+    <!-- 10. PREGUNTAS FRECUENTES -->
     <section class="faq reveal">
         <div class="container">
             <div class="section-header">
                 <h2>Preguntas Frecuentes</h2>
             </div>
+            
             <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-question" onclick="toggleFAQ(event)">
-                        ¿Necesito experiencia previa en música?
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
+                    <button class="faq-question">¿Cómo reservo mi cupo? <i class="fa-solid fa-chevron-down"></i></button>
                     <div class="faq-answer">
-                        <p>No es necesario. El seminario está diseñado para todos los niveles, desde principiantes hasta profesionales con experiencia. Todos pueden beneficiarse del enfoque neurocientífico.</p>
+                        <p>Puedes reservar tu cupo llenando el formulario de inscripción al final de esta página. Una vez completado, recibirás las instrucciones para realizar el abono de B/.30.00.</p>
                     </div>
                 </div>
-                
                 <div class="faq-item">
-                    <button class="faq-question" onclick="toggleFAQ(event)">
-                        ¿Recibiré un certificado?
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
+                    <button class="faq-question">¿Puedo transferir mi inscripción? <i class="fa-solid fa-chevron-down"></i></button>
                     <div class="faq-answer">
-                        <p>Sí. Todos los participantes que completen el seminario recibirán un certificado oficial reconocido por organismos educativos.</p>
+                        <p>Sí, la inscripción es transferible. Si no puedes asistir, debes notificarnos con al menos 48 horas de anticipación e indicarnos los datos de la persona que asistirá en tu lugar.</p>
                     </div>
                 </div>
-                
                 <div class="faq-item">
-                    <button class="faq-question" onclick="toggleFAQ(event)">
-                        ¿Hay descuentos por grupos?
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
+                    <button class="faq-question">¿El seminario incluye certificado? <i class="fa-solid fa-chevron-down"></i></button>
                     <div class="faq-answer">
-                        <p>Sí. Contáctanos si vienes en grupo. Tenemos opciones especiales para instituciones educativas y organizaciones.</p>
+                        <p>Sí, todos los participantes recibirán un certificado de participación que avala las horas y los conocimientos adquiridos durante el seminario.</p>
                     </div>
                 </div>
-                
                 <div class="faq-item">
-                    <button class="faq-question" onclick="toggleFAQ(event)">
-                        ¿Qué incluye el kit musical?
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
+                    <button class="faq-question">¿Qué sucede si no puedo asistir? <i class="fa-solid fa-chevron-down"></i></button>
                     <div class="faq-answer">
-                        <p>El kit incluye instrumentos educativos seleccionados especialmente para actividades de estimulación musical con niños, así como una guía práctica de uso.</p>
+                        <p>El abono de reserva (B/.30.00) no es reembolsable. Sin embargo, como mencionamos, puedes transferir tu cupo a otra persona.</p>
                     </div>
                 </div>
-                
                 <div class="faq-item">
-                    <button class="faq-question" onclick="toggleFAQ(event)">
-                        ¿Puedo acceder al contenido después del seminario?
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
+                    <button class="faq-question">¿Cuándo debo cancelar el saldo restante? <i class="fa-solid fa-chevron-down"></i></button>
                     <div class="faq-answer">
-                        <p>Sí. Todos los participantes tendrán acceso a una comunidad privada con materiales, recursos y soporte continuo.</p>
+                        <p>El saldo restante de B/.120.00 deberá ser cancelado a más tardar 7 días antes del evento para garantizar tu acceso fluido y la entrega del kit.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Quiénes pueden participar? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Está diseñado para docentes de música, educadoras, psicólogos infantiles, terapeutas, profesionales de estimulación temprana y estudiantes de carreras afines.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 11. FORMULARIO DE INSCRIPCIÓN -->
+    <!-- 11. INSCRIPCIÓN -->
     <section class="inscripcion reveal" id="inscripcion">
         <div class="container">
             <div class="section-header">
-                <h2>Inscripción</h2>
+                <h2>Reserva tu Cupo</h2>
+                <p>Completa el formulario para asegurar tu lugar en el seminario.</p>
             </div>
+            
             <div class="form-container">
-                <form>
+                <form id="registroForm" action="#" method="POST">
                     <div class="form-group">
-                        <label for="nombre">Nombre Completo *</label>
-                        <input type="text" id="nombre" class="form-control" required>
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" required placeholder="Ej. Ana Pérez">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico *</label>
+                        <input type="email" id="correo" name="correo" class="form-control" required placeholder="ejemplo@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono / WhatsApp *</label>
+                        <input type="tel" id="telefono" name="telefono" class="form-control" required placeholder="+507 0000-0000">
+                    </div>
+                    <div class="form-group">
+                        <label for="profesion">Profesión o Cargo *</label>
+                        <input type="text" id="profesion" name="profesion" class="form-control" required placeholder="Ej. Docente de Música">
+                    </div>
+                    <div class="form-group">
+                        <label for="ciudad">Ciudad *</label>
+                        <input type="text" id="ciudad" name="ciudad" class="form-control" required placeholder="Ej. Ciudad de Panamá">
                     </div>
                     
-                    <div class="form-group">
-                        <label for="email">Correo Electrónico *</label>
-                        <input type="email" id="email" class="form-control" required>
-                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Reservar mi cupo</button>
                     
-                    <div class="form-group">
-                        <label for="telefono">Teléfono</label>
-                        <input type="tel" id="telefono" class="form-control">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="profesion">Profesión/Ocupación *</label>
-                        <input type="text" id="profesion" class="form-control" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="institucion">Institución/Empresa</label>
-                        <input type="text" id="institucion" class="form-control">
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary btn-submit">Asegurar mi cupo</button>
+                    <p class="form-footer-msg">
+                        <i class="fa-solid fa-lock"></i> Los cupos son limitados a 60 participantes.<br>
+                        Reserva con anticipación para garantizar tu participación.
+                    </p>
                 </form>
-                <p class="form-footer-msg">Tus datos están seguros con nosotros. No compartiremos tu información con terceros.</p>
             </div>
         </div>
     </section>
@@ -1353,72 +1317,71 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-logo">
-                Pasitos <span>Musicales</span>
+                Seminario <span>NeuroMúsica</span>
             </div>
-            <div class="footer-lema">
-                "Desarrollando mentes, un ritmo a la vez"
-            </div>
-            
-            <div class="footer-social">
-                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            </div>
+            <p class="footer-lema">"Música hoy, herramientas para toda la vida."</p>
             
             <div class="footer-contact">
-                <p><i class="fa-solid fa-envelope"></i> contacto@pasitosmusicals.com</p>
-                <p><i class="fa-solid fa-phone"></i> +1 (XXX) XXX-XXXX</p>
+                <p>estimulacionmusical.temily@gmail.com</p>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 Pasitos Musicales. Todos los derechos reservados.</p>
-                <p>Términos de Servicio | Política de Privacidad</p>
+                <p>&copy; 2026 Seminario de Innovación y Neurociencia en el Aula de Música. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
 
-    <!-- SCRIPTS -->
+    <!-- JavaScript -->
     <script>
-        // Toggle FAQ Accordion
-        function toggleFAQ(event) {
-            const item = event.target.closest('.faq-item');
-            const isActive = item.classList.contains('active');
+        // Funcionalidad Acordeón Biografía
+        function toggleAccordion(id) {
+            const content = document.getElementById(id);
+            const btn = content.previousElementSibling;
+            const icon = btn.querySelector('i');
             
-            // Close all FAQ items
-            document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
+            content.classList.toggle('active');
             
-            // Open clicked item
-            if (!isActive) {
-                item.classList.add('active');
+            if (content.classList.contains('active')) {
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
             }
         }
 
-        // Toggle Expositor Biography Accordion
-        function toggleAccordion(event) {
-            event.preventDefault();
-            const content = event.target.closest('.accordion-bio').querySelector('.accordion-content');
-            content.classList.toggle('active');
-        }
-
-        // Reveal animations on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                    observer.unobserve(entry.target);
+        // Funcionalidad Acordeón FAQ
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                
+                // Cerrar todos
+                faqItems.forEach(faq => faq.classList.remove('active'));
+                
+                // Abrir si no estaba activo
+                if (!isActive) {
+                    item.classList.add('active');
                 }
             });
-        }, observerOptions);
-
-        document.querySelectorAll('.reveal').forEach(el => {
-            observer.observe(el);
         });
+
+        // Animación Reveal al hacer Scroll
+        function reveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveals[i].getBoundingClientRect().top;
+                const elementVisible = 100;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('active');
+                }
+            }
+        }
+        window.addEventListener('scroll', reveal);
+        reveal(); // Trigger on load
     </script>
 </body>
 </html>
